@@ -1,6 +1,6 @@
 
 *.png
-models/*
+models/
 charts/*
 *.csv
 data/*
