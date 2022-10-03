@@ -4,6 +4,7 @@ models/*
 charts/*
 *.csv
 data/*
+output/*
 ve-lib/*
 tools/*
 walkthrough/*
