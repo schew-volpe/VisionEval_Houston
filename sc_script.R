@@ -14,6 +14,8 @@ bzone_base32 <- openModel('VERSPM-base-Houston32')
 # run_model at the top (traditionally)
 # New Architecture
 # with a .cnf file, it's new 
+
+# Run models
 hgac_single <- openModel('VERSPM-HGAC_32_single')
 hgac_single$run()
 
@@ -21,9 +23,7 @@ hgac_bike <- openModel('VERSPM-HGAC_32_more_bikes')
 hgac_bike$run()
 
 # Run models ----
-# bzone_base32 <- openModel('32 Bzone Base Model')
-# # Run models ----
-# bzone_base32 <- openModel('32 Bzone Base Model')
+
 hgac_single <- hgac_single$results()
 hgac_single$export()
 hgac_bike <- hgac_bike$results()
