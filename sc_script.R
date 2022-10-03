@@ -22,7 +22,7 @@ hgac_single$run()
 hgac_bike <- openModel('VERSPM-HGAC_32_more_bikes')
 hgac_bike$run()
 
-# Run models ----
+# Query Results ----
 
 hgac_single <- hgac_single$results()
 hgac_single$export()
